@@ -7,8 +7,8 @@ import totalImg from '../../assets/total.svg';
 
 export const SummaryRocket = () => (
   <Container>
-    <CardRocket content="R$ 1.500,00" src={incomeImg} labelName="Entrada" />
-    <CardRocket content="- R$ 500,00" src={outcomeImg} labelName="Saída" />
+    <CardRocket content="R$ 1.500,00" src={incomeImg} labelName="Entradas" />
+    <CardRocket content="- R$ 500,00" src={outcomeImg} labelName="Saídas" />
     <CardRocket
       content="R$ 1.000,00"
       src={totalImg}
