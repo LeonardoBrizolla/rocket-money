@@ -6,7 +6,7 @@ export const Container = styled.header`
   div {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 3.125rem 1rem 8.75rem;
+    padding: 3rem 1rem 8rem;
   }
 `;
 
@@ -16,11 +16,11 @@ export const Content = styled.div`
   justify-content: space-between;
 
   button {
-    padding: 0.75rem 2rem;
+    padding: 1rem 2rem;
   }
 
   img {
-    width: 10.75rem;
-    height: 2.5rem;
+    width: 11rem;
+    height: 3rem;
   }
 `;

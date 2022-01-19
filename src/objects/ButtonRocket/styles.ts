@@ -6,7 +6,7 @@ export const Button = styled.button`
   font-weight: bold;
   font-size: 1rem;
   border: none;
-  border-radius: 0.3125rem;
+  border-radius: 0.3rem;
 
   transition: filter 0.2s linear;
 

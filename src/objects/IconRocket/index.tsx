@@ -1,3 +1,7 @@
-import incomeImg from '../../assets/income.svg';
+type IconRocketProps = {
+  src: string;
+};
 
-export const IconRocket = () => <img src={incomeImg} alt="Ícone de entrada" />;
+export const IconRocket = ({ src }: IconRocketProps) => (
+  <img src={src} alt="Ícone de entrada" />
+);

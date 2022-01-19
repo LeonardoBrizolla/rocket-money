@@ -1,3 +1,9 @@
 import { Label } from './styles';
 
-export const LabelRocket = () => <Label>Entradas</Label>;
+type LabelRocketProps = {
+  labelName: string;
+};
+
+export const LabelRocket = ({ labelName }: LabelRocketProps) => (
+  <Label>{labelName}</Label>
+);
