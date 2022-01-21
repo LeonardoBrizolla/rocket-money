@@ -1,5 +1,9 @@
 import { Button } from './styles';
 
-export const ButtonRocket = () => {
-  return <Button type="button">Nova transação</Button>;
+type ButtonRocketProps = {
+  content: string;
+};
+
+export const ButtonRocket = ({ content }: ButtonRocketProps) => {
+  return <Button type="button">{content}</Button>;
 };

@@ -1,8 +1,8 @@
 import { GlobalColors } from './styles/settings/colors';
 import { GlobalReset } from './styles/generic/reset';
 import { GlobalStyle } from './styles/elements/global';
-import { HeaderRocket } from './components/HeaderRocket';
-import { DashboardRocket } from './components/DashboardRocket';
+import { Header } from './components/Header';
+import { Dashboard } from './components/Dashboard';
 
 export const App = () => {
   return (
@@ -11,8 +11,8 @@ export const App = () => {
       <GlobalReset />
       <GlobalStyle />
 
-      <HeaderRocket />
-      <DashboardRocket />
+      <Header />
+      <Dashboard />
     </>
   );
 };

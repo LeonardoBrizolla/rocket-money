@@ -1,11 +1,11 @@
-import { SummaryRocket } from '../SummaryRocket';
+import { Summary } from '../Summary';
 import { TransactionsTable } from '../TransactionsTable';
 
 import { Container } from './styles';
 
-export const DashboardRocket = () => (
+export const Dashboard = () => (
   <Container>
-    <SummaryRocket />
+    <Summary />
     <TransactionsTable />
   </Container>
 );

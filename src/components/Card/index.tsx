@@ -1,26 +1,21 @@
-import { IconRocket } from '../../objects/IconRocket';
+import { Icon } from '../../objects/Icon';
 import { LabelRocket } from '../../objects/LabelRocket';
 import { TotalRocket } from '../../objects/TotalRocket';
 
 import { Container, Header } from './styles';
 
-type CardRocketProps = {
+type CardProps = {
   content: string;
   src: string;
   className?: string;
   labelName: string;
 };
 
-export const CardRocket = ({
-  content,
-  src,
-  className,
-  labelName,
-}: CardRocketProps) => (
+export const Card = ({ content, src, className, labelName }: CardProps) => (
   <Container className={className}>
     <Header>
       <LabelRocket labelName={labelName} />
-      <IconRocket src={src} />
+      <Icon src={src} />
     </Header>
     <TotalRocket content={content} />
   </Container>

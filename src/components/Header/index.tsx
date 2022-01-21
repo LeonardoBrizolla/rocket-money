@@ -1,13 +1,13 @@
 import { ButtonRocket } from '../../objects/ButtonRocket';
-import { LogoRocket } from '../../objects/LogoRocket';
+import { Logo } from '../../objects/Logo';
 
 import { Container, Content } from './styles';
 
-export const HeaderRocket = () => (
+export const Header = () => (
   <Container>
     <Content>
-      <LogoRocket />
-      <ButtonRocket />
+      <Logo />
+      <ButtonRocket content="Nova Transação" />
     </Content>
   </Container>
 );
