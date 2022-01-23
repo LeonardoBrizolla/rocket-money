@@ -17,6 +17,13 @@ createServer({
           category: 'Job',
           createdAt: new Date(),
         },
+        {
+          id: 2,
+          title: 'Breakfast',
+          type: 'withdraw',
+          category: 'Food',
+          createdAt: new Date(),
+        },
       ];
     });
   },
