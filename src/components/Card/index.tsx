@@ -17,6 +17,6 @@ export const Card = ({ content, src, className, labelName }: CardProps) => (
       <LabelRocket labelName={labelName} />
       <Icon src={src} />
     </Header>
-    <TotalRocket content={content} />
+    <TotalRocket content={content} labelName={labelName} />
   </Container>
 );
