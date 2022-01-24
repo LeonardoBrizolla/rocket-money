@@ -1,13 +1,12 @@
+import { useState } from 'react';
 import Modal from 'react-modal';
-
 import { GlobalColors } from './styles/settings/colors';
 import { GlobalReset } from './styles/generic/reset';
 import { GlobalStyle } from './styles/elements/global';
 import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
-import { useState } from 'react';
 import { NewTransactionModal } from './components/NewTransactionModal';
-import { TransactionsProvider } from './TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 Modal.setAppElement('#root');
 
